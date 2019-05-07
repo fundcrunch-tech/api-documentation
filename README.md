@@ -22,5 +22,12 @@ Subscribed users have data streams without any limitation including private data
 
 ## Quick start
 
+### Subscribe for public stream
+
+```python
+import requests
+
+```
+
 
 
