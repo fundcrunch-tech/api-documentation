@@ -4,6 +4,7 @@ It provides wss and REST services to access various cryptocurrency exchanges pub
 Currently supprorted exchanges: Bitmex Bittrex BitFinex Binance Bitstamp KuCoin Poloniex HitBTC Cex Coinbase Pro OKEX Huobi YOBIT
 
 **Unsubscribed Users**
+
 Publick market data are avaliable with some limitation like delais or thresholds
 No exchange account or private data streamse are avalebled 
 
