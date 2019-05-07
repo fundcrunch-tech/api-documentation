@@ -1,5 +1,6 @@
 # Fundcrunch API
-It provides wss and REST API to access exchanges public and private data streams along with execution commands in uniform messaging format.
+
+It provides real-time market data (quotes, bars, ticks) and indicators streams and execution envoromrnt for range of exchanges in uniform messaging format.
 
 Supported exchanges 
 
