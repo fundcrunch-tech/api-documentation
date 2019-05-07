@@ -15,7 +15,7 @@ Order Book, Trades, OHLC, Balances, Trade Update, Indicators
 
 **Free access**
 
-Public market data and Indicators streams are available with some limitation like delais or thresholds. No exchange accounts or private data streams are available.  
+Public market data and Indicators streams are available with some limitation like delais or thresholds. No execution envoroment for exchenge accounts is available.  
 
 **Subscribed Users**
 
