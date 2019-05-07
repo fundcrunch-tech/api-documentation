@@ -3,11 +3,14 @@ It provides wss and REST API to access exchanges public and private data streams
 
 Supprorted exchanges: 
 
+```
 Bitmex Bittrex BitFinex Binance Bitstamp KuCoin Poloniex HitBTC Cex Coinbase Pro OKEX Huobi YOBIT
+```
 
 Data Streams:
-
+```
 Order Book, Trades, OHLC, Balances, Trade Update, [Indicators](https://pages.github.com/)
+```
 
 **Unsubscribed Users**
 
