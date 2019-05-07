@@ -1,7 +1,7 @@
 # Fundcrunch API
 It provides wss and REST API to access exchanges public and private data streams along with execution commands in uniform messaging format.
 
-Supprorted exchanges: 
+Supported exchanges 
 
 ```
 Bitmex Bittrex BitFinex Binance Bitstamp KuCoin Poloniex HitBTC Cex Coinbase Pro OKEX Huobi YOBIT
@@ -14,11 +14,11 @@ Order Book, Trades, OHLC, Balances, Trade Update, Indicators
 
 **Free access**
 
-Publick market data and Indicators streams are avaliable with some limitation like delais or thresholds. No exchange accounts or private data streamse are avalebled.  
+Public market data and Indicators streams are available with some limitation like delais or thresholds. No exchange accounts or private data streams are available.  
 
 **Subscribed Users**
 
-Subscribed users have data streams without any limitation including private data feedeing and execution functions. 
+Subscribed users have data streams without any limitation including private data feeding and execution functions.
 
 ## Quick start
 
