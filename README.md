@@ -3,9 +3,9 @@ It provides wss and REST services to access various cryptocurrency exchanges pub
 
 Currently supprorted exchanges: Bitmex Bittrex BitFinex Binance Bitstamp KuCoin Poloniex HitBTC Cex Coinbase Pro OKEX Huobi YOBIT
 
-*** Unsubscribed Users ***
+** Unsubscribed Users **
 
-*** Subscribed Users ***
+** Subscribed Users **
 
 ## Quiq start
 
