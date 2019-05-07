@@ -43,10 +43,11 @@ if result.ok:
     print(wss_url)
 ```
 
-above code initiate wss session, subscribes to specific messages and obtain actual wss url like
+above code initiate wss session, subscribes to specific messages and obtain actual wss stream url like
 
-
+```
 wss://138.68.73.246:9443/aa11fde8-1f6d-4372-a3b7-e7eb794e3870
+```
 
 
 
