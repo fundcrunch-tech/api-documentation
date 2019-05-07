@@ -1,9 +1,13 @@
 # Fundcrunch API
-It provides wss and REST services to access various cryptocurrency exchanges public and private data streaming along with execution commands in uniform messaging format.
+It provides wss and REST API to access exchanges public and private data streams along with execution commands in uniform messaging format.
 
-Currently supprorted exchanges: 
+Supprorted exchanges: 
 
 Bitmex Bittrex BitFinex Binance Bitstamp KuCoin Poloniex HitBTC Cex Coinbase Pro OKEX Huobi YOBIT
+
+Data Streams:
+
+Order Book, Trades, OHLC, Balances, Trade Update, Indicators The <abbr title="list">list</abbr>
 
 **Unsubscribed Users**
 
