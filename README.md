@@ -12,7 +12,7 @@ Data Streams:
 Order Book, Trades, OHLC, Balances, Trade Update, Indicators
 ```
 
-**Unsubscribed Users**
+**Free access**
 
 Publick market data and Indicators streams are avaliable with some limitation like delais or thresholds. No exchange accounts or private data streamse are avalebled.  
 
