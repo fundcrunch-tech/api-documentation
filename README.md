@@ -7,7 +7,7 @@ Bitmex Bittrex BitFinex Binance Bitstamp KuCoin Poloniex HitBTC Cex Coinbase Pro
 
 Data Streams:
 
-Order Book, Trades, OHLC, Balances, Trade Update, Indicators The <abbr title="list">list</abbr>
+Order Book, Trades, OHLC, Balances, Trade Update, Indicators [GitHub Pages](https://pages.github.com/)
 
 **Unsubscribed Users**
 
