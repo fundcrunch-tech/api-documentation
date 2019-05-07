@@ -5,10 +5,11 @@ Currently supprorted exchanges: Bitmex Bittrex BitFinex Binance Bitstamp KuCoin 
 
 **Unsubscribed Users**
 
-Publick market data are avaliable with some limitation like delais or thresholds
-No exchange account or private data streamse are avalebled 
+Publick market data and Indicators streams are avaliable with some limitation like delais or thresholds. No exchange accounts or private data streamse are avalebled.  
 
 **Subscribed Users**
+
+Subscribed users have data streams without any limitation including private data feedeing and execution functions. 
 
 ## Quiq start
 
