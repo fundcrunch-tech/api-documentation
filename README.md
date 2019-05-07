@@ -13,7 +13,7 @@ Publick market data and Indicators streams are avaliable with some limitation li
 
 Subscribed users have data streams without any limitation including private data feedeing and execution functions. 
 
-## Quiq start
+## Quick start
 
 
 
