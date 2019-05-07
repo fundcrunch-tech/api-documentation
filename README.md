@@ -30,9 +30,17 @@ import json
 
 api_host = 'https://fundcrunch.tech/wss'
 
-result = requests.get(api_host)
+to_subscribe = ['trade_binance_BTC_USTD', 'ohlc_binance_BTC_USDT', 'ob_binance_BTC_USDT']
+to_subscribe = ",".join(to_subscribe)
+
+url = f"{api_host}/?subscribe={to_subscribe}"
+result = requests.get(url)
+
+
 if result.ok:
-    ret = json.loads(result.text) 
+    ret = json.loads(result.text)
+    wss_url = f"{ret['source_addres']}/{ret['session']}"
+    print(wss_url)
 ```
 
 
