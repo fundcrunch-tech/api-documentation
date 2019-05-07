@@ -25,8 +25,14 @@ Subscribed users have data streams without any limitation including private data
 ### Subscribe for public stream
 
 ```python
-import requests
+import websockets, requests
+import json
 
+api_host = 'https://fundcrunch.tech/wss'
+
+result = requests.get(api_host)
+if result.ok:
+    ret = json.loads(result.text) 
 ```
 
 
