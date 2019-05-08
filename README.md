@@ -27,21 +27,35 @@ Subscribed users have data streams without any limitation including private data
 
 ```python
 import websockets, requests
-import json
+import asyncio, json
+
 
 api_host = 'https://fundcrunch.tech/wss'
 
-to_subscribe = ['trade_binance_BTC_USTD', 'ohlc_binance_BTC_USDT', 'ob_binance_BTC_USDT']
+to_subscribe = ['trade_binance_BTC_USTD',
+                'ohlc_binance_BTC_USDT', 
+                'ob_binance_BTC_USDT']
+                
 to_subscribe = ",".join(to_subscribe)
 
-url = f"{api_host}/?subscribe={to_subscribe}"
-result = requests.get(url)
 
 
-if result.ok:
-    ret = json.loads(result.text)
-    wss_url = f"{ret['source_addres']}/{ret['session']}"
-    print(wss_url)
+def main():
+    done = False
+
+    url = f"{api_host}/?subscribe={to_subscribe}"
+    result = requests.get(url)
+
+    if result.ok:
+        ret = json.loads(result.text)
+        wss_url = f"{ret['source_addres']}/{ret['session']}"
+        print('connecting to:', wss_url)
+
+    with websockets.connect(wss_url) as websocket:
+
+        while not done:
+            message = websocket.recv()
+            print(message)
 ```
 
 above code initiate wss session, subscribes to specific messages and obtain actual wss stream url like
